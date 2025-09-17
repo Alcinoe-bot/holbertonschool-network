@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# This script updates /etc/hosts to set localhost to 127.0.0.2 and facebook.com to 8.8.8.8
+# This script updates /etc/hosts to set localhost to
+# 127.0.0.2 and facebook.com to 8.8.8.8
 
 sed -i '/localhost/d' /etc/hosts
 sed -i '/facebook.com/d' /etc/hosts
